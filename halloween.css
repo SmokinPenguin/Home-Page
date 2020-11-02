@@ -5,8 +5,7 @@ h2 {
   color: #FF7F00;
 }
 
-
-.AppList {
+.AppList{
   list-style-type: none;
 }
 .AppList ol {
@@ -25,6 +24,7 @@ h2 {
   top: .05em;
   color: #FF7F00;
 }
+
 
 
 .DevicePics {
