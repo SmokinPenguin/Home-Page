@@ -1,12 +1,69 @@
 h1 {
-  color: green;
+  color: #FF7F00;
 }
 h2 {
-  color: purple;
+  color: #FF7F00;
 }
-h2 {
-  color: green;
+
+
+.AppList {
+  list-style-type: none;
 }
-li {
-  color: red;
+.AppList ol {
+  margin-left: 2em;
+}
+.AppList li {
+  counter-increment: count-me;
+}
+.AppList li::before {
+  content: counter(count-me) ". ";
+  display: blocks;
+  position: relative;
+  max-width: 0px;
+  max-height: 0px;
+  left: -1.3em;
+  top: .05em;
+  color: #FF7F00;
+}
+
+
+.DevicePics {
+  list-style-type: none;
+}
+.DevicePics ol {
+  margin-left: 2em;
+}
+.DevicePics li {
+  counter-increment: count-me;
+}
+.DevicePics li::before {
+  content: counter(count-me) ". ";
+  display: blocks;
+  position: relative;
+  max-width: 0px;
+  max-height: 0px;
+  left: -1.3em;
+  top: .05em;
+  color: #FF7F00;
+}
+
+
+.ExApps {
+  list-style-type: none;
+}
+.ExApps ol {
+  margin-left: 2em;
+}
+.ExApps li {
+  counter-increment: count-me;
+}
+.ExApps li::before {
+  content: counter(count-me) ". ";
+  display: blocks;
+  position: relative;
+  max-width: 0px;
+  max-height: 0px;
+  left: -1.3em;
+  top: .05em;
+  color: #FF7F00;
 }
