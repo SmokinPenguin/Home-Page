@@ -39,6 +39,17 @@ h2 {
     color: green;
 }
 
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 
 li {
