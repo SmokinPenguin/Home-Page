@@ -1,0 +1,46 @@
+.title {
+  color: red;
+  font-size: 60px;
+}
+
+.paragraph {
+  color: green;
+  font-size: 25px;
+}
+
+h2 {
+  color: red;
+  font-size: 25px;
+}
+
+.table1 table, td {
+  border: 5px solid black;
+  font-family: TimesNewRoman, “Times New Roman”, Times, Baskerville, Georgia, serif;
+  text-align: center;
+}
+
+.list {
+  color: green;
+  font-size: 40px;
+}
+
+.apps {
+    list-style-type: none;
+  }
+
+  .last {
+    vertical-align: top;
+  }
+
+.table2 table, td {
+    border: 1px solid black;
+    font-family: TimesNewRoman, “Times New Roman”, Times, Baskerville, Georgia, serif;
+    text-align: center;
+    color: green;
+}
+
+
+
+li {
+  color: red;
+}
