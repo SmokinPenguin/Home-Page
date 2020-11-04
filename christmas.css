@@ -24,6 +24,12 @@ h2 {
   font-size: 40px;
 }
 
+.each-name {
+  color: red;
+  font-family: TimesNewRoman;
+  font-size: 30px;
+}
+
 .apps {
     list-style-type: none;
   }
